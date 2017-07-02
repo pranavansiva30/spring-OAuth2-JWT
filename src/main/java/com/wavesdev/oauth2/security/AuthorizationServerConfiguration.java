@@ -16,7 +16,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenCo
 @EnableAuthorizationServer
 public class AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter {
 
-	//@Value("${resource.id:spring-boot-application}")
+	
     private String resourceId="spring-OAuth2-JWT";
     
    // @Value("${access_token.validity_period:3600}")

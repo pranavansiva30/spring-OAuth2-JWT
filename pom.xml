@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wavesdev</groupId>
-	<artifactId>spring-OAuth2-JWT</artifactId>
+	<artifactId>spring-OAuth2-JWT-2</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-OAuth2-JWT Maven Webapp</name>
@@ -146,11 +146,11 @@
 				<version>2.4</version>
 				<configuration>
 					<warSourceDirectory>src/main/webapp</warSourceDirectory>
-					<warName>spring-OAuth2-JWT</warName>
+					<warName>spring-OAuth2-JWT-2</warName>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>spring-OAuth2-JWT</finalName>
+		<finalName>spring-OAuth2-JWT-2</finalName>
 	</build>
 </project>
